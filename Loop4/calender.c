@@ -4,7 +4,7 @@ int main(){
 	printf("enter the number of days: \n" );
 	scanf("%i", &days);
 	printf("Enter the first day\n" );
-	scanf("%i", &first);
+	scanf("%i", &first); 
 	printf("Sun\tMon\tTue\tWed\tThu\tFri\tSat\n");
 	while (a<=days+first-1) {
 		if(a-first+1>0)
